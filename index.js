@@ -96,7 +96,7 @@ async function sendToDiscord(ctx, message, photo = null) {
                 description: message,
                 color: 16744256,
                 footer: {
-                    text: `t.me/poldonews • ${new Date().toLocaleDateString()} • jes.is-a.dev`
+                    text: `t.me/poldonews • ${new Date().toLocaleDateString('it-IT')} • jes.is-a.dev`
                 }
             }]
         };
